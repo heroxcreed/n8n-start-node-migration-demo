@@ -1,0 +1,74 @@
+Execution was successful:
+====================================
+{
+  "data": {
+    "startData": {},
+    "resultData": {
+      "runData": {
+        "Start": [
+          {
+            "startTime": 1790743491223,
+            "executionIndex": 0,
+            "source": [],
+            "hints": [],
+            "executionTime": 2,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {},
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "Set fields": [
+          {
+            "startTime": 1790743491226,
+            "executionIndex": 1,
+            "source": [
+              {
+                "previousNode": "Start"
+              }
+            ],
+            "hints": [],
+            "executionTime": 3,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {
+                      "status": "ok"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "lastNodeExecuted": "Set fields"
+    },
+    "executionData": {
+      "contextData": {},
+      "nodeExecutionStack": [],
+      "metadata": {},
+      "waitingExecution": {},
+      "waitingExecutionSource": {}
+    }
+  },
+  "mode": "cli",
+  "startedAt": "2026-09-30T04:44:51.220Z",
+  "stoppedAt": "2026-09-30T04:44:51.229Z",
+  "status": "running",
+  "finished": true
+}

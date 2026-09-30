@@ -1,0 +1,13 @@
+n8n Task Broker ready on 127.0.0.1, port 5679
+Error executing workflow. See log messages for details.
+
+Execution error:
+====================================
+Missing node to start execution
+Please make sure the workflow you're calling contains an Execute Workflow Trigger node
+CliWorkflowOperationError: Missing node to start execution
+    at /home/hatch/.npm/_npx/3122c1e35de580c9/node_modules/n8n/src/utils.ts:34:9
+    at Execute.run (/home/hatch/.npm/_npx/3122c1e35de580c9/node_modules/n8n/src/commands/execute.ts:76:44)
+    at CommandRegistry.execute (/home/hatch/.npm/_npx/3122c1e35de580c9/node_modules/n8n/src/command-registry.ts:83:4)
+    at /home/hatch/.npm/_npx/3122c1e35de580c9/node_modules/n8n/bin/n8n:63:2
+Missing node to start execution

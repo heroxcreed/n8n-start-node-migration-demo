@@ -1,0 +1,56 @@
+{
+ "active": false,
+ "connections": {
+  "Manual Trigger": {
+   "main": [
+    [
+     {
+      "index": 0,
+      "node": "Set fields",
+      "type": "main"
+     }
+    ]
+   ]
+  }
+ },
+ "name": "demo-2.0-start-node-fixed",
+ "nodes": [
+  {
+   "id": "c1b2c3d4-0000-4000-8000-000000000003",
+   "name": "Manual Trigger",
+   "parameters": {},
+   "position": [
+    240,
+    300
+   ],
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1
+  },
+  {
+   "id": "b1b2c3d4-0000-4000-8000-000000000002",
+   "name": "Set fields",
+   "parameters": {
+    "assignments": {
+     "assignments": [
+      {
+       "id": "f1e2d3c4-0000-4000-8000-000000000001",
+       "name": "status",
+       "type": "string",
+       "value": "ok"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "position": [
+    480,
+    300
+   ],
+   "type": "n8n-nodes-base.set",
+   "typeVersion": 3.4
+  }
+ ],
+ "settings": {},
+ "staticData": null,
+ "versionId": "c11a1cff-02f7-45eb-8c09-56a58ee5ea4d"
+}
